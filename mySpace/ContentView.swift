@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            
+            Text("shahad")
             Text("Sara").font(Font.largeTitle).padding(12)
             Image("book").frame(width: 300,height: 300)
                 .clipShape(Circle())
